@@ -236,6 +236,6 @@ func (controller *TodolistControllerImpl) Delete(ctx echo.Context, cache *ttlcac
 		}
 
 	}
-
+	//
 	helper.WriteToResponseBody(ctx, webResponse, code)
 }
